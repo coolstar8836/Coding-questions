@@ -12,7 +12,7 @@ for(int x1=xl1;x1<=xr1;x1++)
 				//distance travelled from (1,1) ,if its even
 				//Then there is color change and if odd then 
 				//no color change
-					if(x1!=x2 || y1!=y2)//This loop is for 
+					if(x1!=x2 || y1!=y2)//This condition is for 
 					{//checking over lapping conditions
 						res++;
 					}
