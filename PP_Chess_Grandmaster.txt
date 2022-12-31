@@ -10,8 +10,8 @@ for(int x1=xl1;x1<=xr1;x1++)
 				if(((x1+y1)&1)==((x2+y2)&1))//This checks for 
 				{//same color or not as x1+y1 will be the total 
 				//distance travelled from (1,1) ,if its even
-				//Then there is color change and if odd then 
-				//no color change
+				//Then there is no color change and if odd then 
+				// color change
 					if(x1!=x2 || y1!=y2)//This condition is for 
 					{//checking over lapping conditions
 						res++;
