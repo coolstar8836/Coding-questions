@@ -1,0 +1,24 @@
+int res=0;
+for(int x1=xl1;x1<=xr1;x1++)
+{
+	for(int y1=yl1;y1<=yr1;y1++)
+	{
+		for(int x2=xl2;x2<=xr2;x2++)
+		{
+			for(int y2=yl2;y2<=yr2;y2++)
+			{
+				if(((x1+y1)&1)==((x2+y2)&1))//This checks for 
+				{//same color or not as x1+y1 will be the total 
+				//distance travelled from (1,1) ,if its even
+				//Then there is color change and if odd then 
+				//no color change
+					if(x1!=x2 || y1!=y2)//This loop is for 
+					{//checking over lapping conditions
+						res++;
+					}
+				}
+			}
+		}
+	}
+	
+}
